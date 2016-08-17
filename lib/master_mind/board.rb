@@ -8,6 +8,10 @@ module MasterMind
       @code = ([rand(1..6),rand(1..6),rand(1..6),rand(1..6)])
     end
 
+    def cheat
+      @code
+    end
+
 
 
   	def check_matches(guess)
