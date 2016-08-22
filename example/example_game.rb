@@ -4,4 +4,4 @@ require "#{root}/lib/master_mind.rb"
  
 puts "Welcome to Master Mind"
 
-MasterMind::Game.new.play
+MasterMind::Game.new.which_side
