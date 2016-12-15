@@ -1,41 +1,12 @@
 # MasterMind
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/master_mind`. To experiment with that code, run `bin/console` for an interactive prompt.
+MasterMind is and adaption of a board game. In the Ruby version, the user can choose to guess and make the computer the codemaker and randomly generate a code. Duplicates are allowed, so the computer could even choose four code pegs of the same color.
 
-TODO: Delete this and the text above, and describe your gem
+The user tries to guess the pattern, in both order and color, within eight turns. Each guess is made by typing the colors in the CLI. Once placed, the computer provides feedback by printing to the screen if the number of guesses that are right but in the wrong spot and how many is correct in both color and position. See [Wikipedia](https://en.wikipedia.org/wiki/Mastermind_(board_game)) for more information and game rules.
 
-## Installation
+The user can also set the code and allow the computer to try and guess the solution. The computer will randomly guess the right combination.
 
-Add this line to your application's Gemfile:
+To run the game, run `ruby example/example_game.rb`
 
-```ruby
-gem 'master_mind'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install master_mind
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/master_mind. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This is a project for [TheOdinProject's](http://www.theodinproject.com) Ruby track. See [here](http://www.theodinproject.com/courses/ruby-programming/lessons/oop?ref=lc-pb) for more information.
 
